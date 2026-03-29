@@ -5,6 +5,8 @@ export OMARCHY_CUSTOMIZE_ROOT
 
 find "$OMARCHY_CUSTOMIZE_ROOT" -type f -name "*.sh" -exec chmod +x {} +
 
+yay --answerdiff None --answerclean None --needed --noconfirm --combinedupgrade -Syu
+
 bash $OMARCHY_CUSTOMIZE_ROOT/overrides/execute.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/execute.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/stow/execute.sh
