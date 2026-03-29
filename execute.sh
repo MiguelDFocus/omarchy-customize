@@ -9,4 +9,5 @@ yay --answerdiff None --answerclean None --needed --noconfirm --combinedupgrade 
 
 bash $OMARCHY_CUSTOMIZE_ROOT/overrides/execute.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/execute.sh
+bash $OMARCHY_CUSTOMIZE_ROOT/installs/execute.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/stow/execute.sh
