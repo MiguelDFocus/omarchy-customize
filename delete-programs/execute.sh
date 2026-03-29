@@ -1,9 +1,8 @@
 #!/bin/bash
 
+bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-webapps.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-libre.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-aether.sh
-bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-basecamp.sh
-bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-webapps.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-kdenlive.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-localsend.sh
 bash $OMARCHY_CUSTOMIZE_ROOT/delete-programs/uninstall-obs.sh

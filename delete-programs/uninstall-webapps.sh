@@ -1,7 +1,7 @@
 #!/bin/bash
 # --- CONFIGURATION: Add the apps you want to remove here ---
 APPS_TO_DELETE=(
-    "Baszecamp"
+    "Basecamp"
     "ChatGPT"
     "Figma"
     "Google Contacts"
