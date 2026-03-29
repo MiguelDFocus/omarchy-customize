@@ -1,1 +1,0 @@
-/home/mfocus/.config/omarchy/current/theme/neovim.lua
