@@ -16,7 +16,7 @@ echo "Stowing dotfiles..."
 
 for pkg in "${PACKAGES[@]}"; do
     # -v: verbose, -R: recursive/restow, -t: target (Home)
-    stow --adopt -v -R -t "$HOME" "$pkg"
+    stow -v -R -t "$HOME" "$pkg"
 done
 
 echo "Done! Your configs are now symlinked."
